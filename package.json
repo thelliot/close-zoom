@@ -1,0 +1,15 @@
+{
+  "name": "close-zoom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "background.js",
+  "scripts": {
+    "pack": "cp manifest.json public && cp background.js public && zip -r close-zoom.zip public"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/chrome": "0.0.191"
+  }
+}
